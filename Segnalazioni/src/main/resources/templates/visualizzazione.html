@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="it">
+<head>
+<title>index</title>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>VISUALIZZAZIONE COMPLETA RICHIESTA</h1>
+	<table>
+	<tr>
+				<td th:text="${lista.id}">...</td>
+				<td th:text="${lista.descrizione}">...</td>
+				</tr>
+	</table>
+	<p></p><p></p>
+	<form  method="GET" action="/index"><element id="submit"><input type="submit"  value="torna indietro"></element></input></form>
+			
+</body>

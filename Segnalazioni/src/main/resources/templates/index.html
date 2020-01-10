@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="it">
+<head>
+<title>index</title>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1><b>SEGNALAZIONE</b></h1>
+	<table>
+		<th:block th:each="item : ${lista}">
+	<tr>
+				<td th:text="${item.id}">...</td>
+				<td th:text="${item.oggetto}">...</td>
+				<td th:text="${item.tipo}">...</td>
+				<td><form  method="POST" action="/visualizzazione"><input type="hidden"  name="id" th:value="${item.id}"><element id="submit"><input type="submit"  value="visualizzazione completa"></element></form></td>
+			</tr>
+		</th:block>
+	</table>
+ 
+</body>

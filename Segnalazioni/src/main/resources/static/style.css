@@ -1,0 +1,26 @@
+body { background-image: url(slide-che-posta.jpg); }
+table{
+	
+	border-style:ridge;
+	
+}
+table,
+th,
+tr,
+td{
+	border-collapse: separate;
+}
+th,td{padding:10px;border:solid 1px;text-align:center;}
+h1 {color:red;
+	text-shadow: 3px 2px black;
+
+}
+#submit {
+  background-color: #FF8800; /* colore di sfondo    */
+  border: 2px solid #FCA800; /* bordo dell'elemento */
+  color: #fff;               /* colore del testo    */
+  font-weight: bold;         /* testo in grassetto  */
+  padding: 0;                /* padding             */
+  height: 25px;              /* altezza             */
+  width: 80px;               /* larghezza           */
+}
